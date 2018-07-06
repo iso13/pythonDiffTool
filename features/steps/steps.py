@@ -11,8 +11,8 @@ def step_impl(context, gold_file, test_file):
     context.second_file_lines = open(context.test_file).readlines()
 
 
-@then(u'I print out the differences in an html file')
-def i_print_out_the_differences(context):
+@then(u'I generate an html report comparison')
+def i_generate_an_html_report_comparison(context):
     i = 1
     while os.path.exists('difference_report%s.html' % i):
         i += 1

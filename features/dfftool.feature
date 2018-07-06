@@ -6,7 +6,7 @@ Feature: difftool
 
   Scenario Outline: Compare json files for differences
     Given I compare the following files "<golden>" and "<test>"
-    Then I print out the differences in an html file
+    Then I generate an html report comparison
 
     Examples:
       | golden                               | test                               |
