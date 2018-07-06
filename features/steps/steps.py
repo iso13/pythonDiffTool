@@ -22,3 +22,11 @@ def i_print_out_the_differences(context):
     context.difference_report = open('difference_report%s.html' % i, 'w')
     context.difference_report.write(context.difference)
     context.difference_report.close()
+
+
+# ToDo:
+# parse only by specific key
+# fail scenario if there are diffs found
+# ignore order and pass scenario
+# read in files from vs outline
+# generate json report for scenarios
