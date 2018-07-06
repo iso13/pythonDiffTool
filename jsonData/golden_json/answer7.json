@@ -1,0 +1,140 @@
+{
+    "answerTitle": "String Casing - month formula",
+    "answerDesc": "",
+    "sageQuery": "date month sort by date",
+    "dataAutoCompletions": [],
+    "languageAutoCompletions": [],
+    "headlines": [
+        {
+            "name": "Monthly (Date)",
+            "values": [
+                {
+                    "value": 1420099200,
+                    "type": "MIN"
+                },
+                {
+                    "value": 1509519600,
+                    "type": "MAX"
+                }
+            ]
+        },
+        {
+            "name": "month",
+            "values": [
+                {
+                    "value": 10,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "columnNames": [
+                "Date",
+                "month"
+            ],
+            "numRows": 14,
+            "rows": [
+                [
+                    1420099200,
+                    "january"
+                ],
+                [
+                    1422777600,
+                    "february"
+                ],
+                [
+                    1427871600,
+                    "april"
+                ],
+                [
+                    1430463600,
+                    "may"
+                ],
+                [
+                    1451635200,
+                    "january"
+                ],
+                [
+                    1467356400,
+                    "july"
+                ],
+                [
+                    1470034800,
+                    "august"
+                ],
+                [
+                    1472713200,
+                    "september"
+                ],
+                [
+                    1483257600,
+                    "january"
+                ],
+                [
+                    1485936000,
+                    "february"
+                ],
+                [
+                    1488355200,
+                    "march"
+                ],
+                [
+                    1493622000,
+                    "may"
+                ],
+                [
+                    1506841200,
+                    "october"
+                ],
+                [
+                    1509519600,
+                    "november"
+                ]
+            ],
+            "displayedData": [
+                [
+                    "Jan FY 2015",
+                    "january"
+                ],
+                [
+                    "Feb FY 2016",
+                    "february"
+                ],
+                [
+                    "Apr FY 2016",
+                    "april"
+                ],
+                [
+                    "May FY 2016",
+                    "may"
+                ],
+                [
+                    "Jan FY 2016",
+                    "january"
+                ],
+                [
+                    "Jul FY 2017",
+                    "july"
+                ],
+                [
+                    "Aug FY 2017",
+                    "august"
+                ],
+                [
+                    "Sep FY 2017",
+                    "september"
+                ],
+                [
+                    "Jan FY 2017",
+                    "january"
+                ],
+                [
+                    "Feb FY 2018",
+                    "february"
+                ]
+            ]
+        }
+    ]
+}

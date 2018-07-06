@@ -1,0 +1,642 @@
+{
+    "answerTitle": "Regular Chasm Trap - Group Functions - group_count - Answer",
+    "answerDesc": "",
+    "sageQuery": "promotion_cost employee_agency id customer_name groupcntsaledeal",
+    "dataAutoCompletions": [],
+    "languageAutoCompletions": [],
+    "headlines": [
+        {
+            "name": "Employee_Agency ID",
+            "values": [
+                {
+                    "value": 17,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Customer_Name",
+            "values": [
+                {
+                    "value": 68,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Total Promotion_Cost",
+            "values": [
+                {
+                    "value": 2405459,
+                    "type": "SUM"
+                }
+            ]
+        },
+        {
+            "name": "Total groupCntSaleDeal",
+            "values": [
+                {
+                    "value": 87,
+                    "type": "SUM"
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "columnNames": [
+                "Employee_Agency ID",
+                "Customer_Name",
+                "Promotion_Cost",
+                "groupCntSaleDeal"
+            ],
+            "numRows": 88,
+            "rows": [
+                [
+                    "1134",
+                    "Best buy",
+                    29303,
+                    null
+                ],
+                [
+                    null,
+                    "arbonne international",
+                    27485,
+                    2
+                ],
+                [
+                    "1125",
+                    "Hannover RE",
+                    23514,
+                    2
+                ],
+                [
+                    "1126",
+                    "Walgreens",
+                    51072,
+                    1
+                ],
+                [
+                    "1134",
+                    "Curry up now",
+                    24984,
+                    null
+                ],
+                [
+                    "1124",
+                    "Capital one",
+                    24800,
+                    3
+                ],
+                [
+                    null,
+                    "Udacity",
+                    26759,
+                    2
+                ],
+                [
+                    "1128",
+                    "Prom girl",
+                    23635,
+                    2
+                ],
+                [
+                    "1124",
+                    "Coursera",
+                    27109,
+                    2
+                ],
+                [
+                    "1131",
+                    "Netflix",
+                    25063,
+                    2
+                ],
+                [
+                    "1124",
+                    "Nordstorm",
+                    23378,
+                    1
+                ],
+                [
+                    "1112",
+                    "Scotia Bank",
+                    26708,
+                    null
+                ],
+                [
+                    "1132",
+                    "alberta investment management corp",
+                    27520,
+                    null
+                ],
+                [
+                    "1127",
+                    "Walmart",
+                    22130,
+                    null
+                ],
+                [
+                    "1113",
+                    "Scandinavian design",
+                    31049,
+                    null
+                ],
+                [
+                    null,
+                    "CVS",
+                    23858,
+                    1
+                ],
+                [
+                    "1110",
+                    "REI",
+                    30339,
+                    null
+                ],
+                [
+                    null,
+                    "Rambus",
+                    29342,
+                    2
+                ],
+                [
+                    "1113",
+                    "Sephora",
+                    50711,
+                    null
+                ],
+                [
+                    "1128",
+                    "Macys",
+                    25726,
+                    1
+                ],
+                [
+                    "1133",
+                    "Sterling",
+                    31813,
+                    null
+                ],
+                [
+                    "1110",
+                    "Intuit",
+                    31409,
+                    null
+                ],
+                [
+                    "1128",
+                    "helzberg diamonds-",
+                    27307,
+                    null
+                ],
+                [
+                    "1125",
+                    "Code school",
+                    28138,
+                    2
+                ],
+                [
+                    "1110",
+                    "Blue shield of California",
+                    31384,
+                    1
+                ],
+                [
+                    "1124",
+                    "Autodesk",
+                    23333,
+                    null
+                ],
+                [
+                    "1126",
+                    "AIG",
+                    26078,
+                    2
+                ],
+                [
+                    "1135",
+                    "Zara",
+                    24852,
+                    1
+                ],
+                [
+                    "1110",
+                    "Munich Re",
+                    29100,
+                    2
+                ],
+                [
+                    "1128",
+                    "Royal bank of Canada",
+                    28263,
+                    1
+                ],
+                [
+                    "1120",
+                    "Affirm",
+                    30127,
+                    1
+                ],
+                [
+                    "1120",
+                    "Cox media",
+                    22356,
+                    1
+                ],
+                [
+                    "1127",
+                    "Eat club",
+                    32077,
+                    1
+                ],
+                [
+                    "1120",
+                    "Air bnb",
+                    32152,
+                    2
+                ],
+                [
+                    "1124",
+                    "Care first",
+                    25014,
+                    1
+                ],
+                [
+                    "1120",
+                    "mckesson",
+                    23747,
+                    null
+                ],
+                [
+                    "1110",
+                    "Liberty Mutual",
+                    30375,
+                    2
+                ],
+                [
+                    "1110",
+                    "GEICO",
+                    50212,
+                    1
+                ],
+                [
+                    "1113",
+                    "Capital one",
+                    28540,
+                    3
+                ],
+                [
+                    "1126",
+                    "Farm Hill",
+                    24720,
+                    1
+                ],
+                [
+                    "1120",
+                    "Nutanix",
+                    24710,
+                    2
+                ],
+                [
+                    "1131",
+                    "Sandia labs",
+                    22844,
+                    null
+                ],
+                [
+                    "1132",
+                    "All Modern",
+                    25071,
+                    null
+                ],
+                [
+                    "1133",
+                    "Swiss Re",
+                    26430,
+                    2
+                ],
+                [
+                    "1113",
+                    "Best buy",
+                    25451,
+                    null
+                ],
+                [
+                    "1113",
+                    "Curry up now",
+                    32209,
+                    null
+                ],
+                [
+                    "1110",
+                    "Dermstore",
+                    23768,
+                    null
+                ],
+                [
+                    "1120",
+                    "Tracfone",
+                    30843,
+                    2
+                ],
+                [
+                    "1135",
+                    "oregon mutual insurance-",
+                    22538,
+                    null
+                ],
+                [
+                    null,
+                    "Affirm",
+                    23187,
+                    1
+                ],
+                [
+                    "1123",
+                    "virginia commonwealth university",
+                    25563,
+                    null
+                ],
+                [
+                    "1113",
+                    "Power Design",
+                    26382,
+                    3
+                ],
+                [
+                    "1125",
+                    "Qualcomm",
+                    23059,
+                    1
+                ],
+                [
+                    "1110",
+                    "Qualcomm",
+                    26703,
+                    1
+                ],
+                [
+                    "1110",
+                    "Fannie mae",
+                    28394,
+                    null
+                ],
+                [
+                    "1120",
+                    "BCG",
+                    22317,
+                    1
+                ],
+                [
+                    "1113",
+                    "REI",
+                    31724,
+                    null
+                ],
+                [
+                    "1124",
+                    "Dermstore",
+                    24543,
+                    null
+                ],
+                [
+                    "1130",
+                    "High Tail",
+                    29717,
+                    1
+                ],
+                [
+                    "1128",
+                    "Max Newyork life",
+                    24864,
+                    1
+                ],
+                [
+                    "1134",
+                    "Primary Capital",
+                    21265,
+                    2
+                ],
+                [
+                    "1124",
+                    "Rizepoint",
+                    28905,
+                    3
+                ],
+                [
+                    "1110",
+                    "Worldpay",
+                    26412,
+                    2
+                ],
+                [
+                    "1125",
+                    "Scandinavian design",
+                    23099,
+                    null
+                ],
+                [
+                    "1128",
+                    "contra costa county",
+                    25237,
+                    null
+                ],
+                [
+                    "1124",
+                    "Payback",
+                    32231,
+                    null
+                ],
+                [
+                    "1110",
+                    "johnson & johnson",
+                    28387,
+                    null
+                ],
+                [
+                    "1133",
+                    "All Modern",
+                    26769,
+                    null
+                ],
+                [
+                    "1125",
+                    "Netflix",
+                    28531,
+                    2
+                ],
+                [
+                    "1113",
+                    "Delloite",
+                    22140,
+                    2
+                ],
+                [
+                    "1131",
+                    "Primary Capital",
+                    23942,
+                    2
+                ],
+                [
+                    "1135",
+                    "Max Newyork life",
+                    23173,
+                    1
+                ],
+                [
+                    "1130",
+                    "Performant Financial",
+                    21596,
+                    null
+                ],
+                [
+                    "1127",
+                    "CVS",
+                    29391,
+                    1
+                ],
+                [
+                    "1112",
+                    "Charles Schwab",
+                    21273,
+                    null
+                ],
+                [
+                    "1120",
+                    "Bed Bath and beyond",
+                    28044,
+                    null
+                ],
+                [
+                    "1131",
+                    "Fannie mae",
+                    23260,
+                    null
+                ],
+                [
+                    "1113",
+                    "Cox media",
+                    23098,
+                    1
+                ],
+                [
+                    "1110",
+                    "zappos",
+                    23381,
+                    null
+                ],
+                [
+                    "1131",
+                    "Blue shield of California",
+                    27972,
+                    1
+                ],
+                [
+                    "1125",
+                    "Power Design",
+                    24921,
+                    3
+                ],
+                [
+                    "1130",
+                    "Caterpillar",
+                    25653,
+                    1
+                ],
+                [
+                    "1132",
+                    "Care first",
+                    31078,
+                    1
+                ],
+                [
+                    "1125",
+                    "Nordstorm",
+                    22834,
+                    1
+                ],
+                [
+                    "1135",
+                    "Metlife",
+                    30471,
+                    2
+                ],
+                [
+                    "1113",
+                    "Bank of America",
+                    29170,
+                    2
+                ],
+                [
+                    "1132",
+                    "Amazon",
+                    29530,
+                    2
+                ]
+            ],
+            "displayedData": [
+                [
+                    "1134",
+                    "Best buy",
+                    "29,303",
+                    "{Null}"
+                ],
+                [
+                    "{Null}",
+                    "arbonne international",
+                    "27,485",
+                    "2"
+                ],
+                [
+                    "1125",
+                    "Hannover RE",
+                    "23,514",
+                    "2"
+                ],
+                [
+                    "1126",
+                    "Walgreens",
+                    "51,072",
+                    "1"
+                ],
+                [
+                    "1134",
+                    "Curry up now",
+                    "24,984",
+                    "{Null}"
+                ],
+                [
+                    "1124",
+                    "Capital one",
+                    "24,800",
+                    "3"
+                ],
+                [
+                    "{Null}",
+                    "Udacity",
+                    "26,759",
+                    "2"
+                ],
+                [
+                    "1128",
+                    "Prom girl",
+                    "23,635",
+                    "2"
+                ],
+                [
+                    "1124",
+                    "Coursera",
+                    "27,109",
+                    "2"
+                ],
+                [
+                    "1131",
+                    "Netflix",
+                    "25,063",
+                    "2"
+                ]
+            ]
+        }
+    ]
+}

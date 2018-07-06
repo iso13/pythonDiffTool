@@ -1,0 +1,238 @@
+{
+    "answerTitle": "String Casing - preservation of same string in diff column",
+    "answerDesc": "",
+    "sageQuery": "date monthly item items sold vendor",
+    "dataAutoCompletions": [],
+    "languageAutoCompletions": [],
+    "headlines": [
+        {
+            "name": "Monthly (Date)",
+            "values": [
+                {
+                    "value": 1420099200,
+                    "type": "MIN"
+                },
+                {
+                    "value": 1509519600,
+                    "type": "MAX"
+                }
+            ]
+        },
+        {
+            "name": "Item",
+            "values": [
+                {
+                    "value": 5,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Vendor",
+            "values": [
+                {
+                    "value": 5,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Total Items Sold",
+            "values": [
+                {
+                    "value": 580,
+                    "type": "SUM"
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "columnNames": [
+                "Date",
+                "Item",
+                "Vendor",
+                "Items Sold"
+            ],
+            "numRows": 19,
+            "rows": [
+                [
+                    1451635200,
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    38
+                ],
+                [
+                    1488355200,
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    16
+                ],
+                [
+                    1506841200,
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    38
+                ],
+                [
+                    1430463600,
+                    "SODAPOP quench",
+                    "SodaPop Quench",
+                    15
+                ],
+                [
+                    1493622000,
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    30
+                ],
+                [
+                    1506841200,
+                    "CRazyCOOKies",
+                    "CrazyCookies",
+                    36
+                ],
+                [
+                    1427871600,
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    36
+                ],
+                [
+                    1467356400,
+                    "pie party",
+                    "Pie Party",
+                    30
+                ],
+                [
+                    1422777600,
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    36
+                ],
+                [
+                    1467356400,
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    41
+                ],
+                [
+                    1467356400,
+                    "SODAPOP quench",
+                    "SodaPop Quench",
+                    31
+                ],
+                [
+                    1483257600,
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    10
+                ],
+                [
+                    1472713200,
+                    "CRazyCOOKies",
+                    "CrazyCookies",
+                    11
+                ],
+                [
+                    1485936000,
+                    "SODAPOP quench",
+                    "SodaPop Quench",
+                    16
+                ],
+                [
+                    1470034800,
+                    "pie party",
+                    "Pie Party",
+                    37
+                ],
+                [
+                    1509519600,
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    36
+                ],
+                [
+                    1420099200,
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    44
+                ],
+                [
+                    1420099200,
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    40
+                ],
+                [
+                    1420099200,
+                    "CRazyCOOKies",
+                    "CrazyCookies",
+                    39
+                ]
+            ],
+            "displayedData": [
+                [
+                    "Jan FY 2016",
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    "38"
+                ],
+                [
+                    "Mar FY 2018",
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    "16"
+                ],
+                [
+                    "Oct FY 2018",
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    "38"
+                ],
+                [
+                    "May FY 2016",
+                    "SODAPOP quench",
+                    "SodaPop Quench",
+                    "15"
+                ],
+                [
+                    "May FY 2018",
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    "30"
+                ],
+                [
+                    "Oct FY 2018",
+                    "CRazyCOOKies",
+                    "CrazyCookies",
+                    "36"
+                ],
+                [
+                    "Apr FY 2016",
+                    "HAPPY CAKES",
+                    "happy cakes",
+                    "36"
+                ],
+                [
+                    "Jul FY 2017",
+                    "pie party",
+                    "Pie Party",
+                    "30"
+                ],
+                [
+                    "Feb FY 2016",
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    "36"
+                ],
+                [
+                    "Jul FY 2017",
+                    "SWIRL ice CREAM",
+                    "Swirl Ice Cream",
+                    "41"
+                ]
+            ]
+        }
+    ]
+}

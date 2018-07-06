@@ -1,0 +1,160 @@
+{
+    "answerTitle": "String Casing - Concat Formula",
+    "answerDesc": "",
+    "sageQuery": "concat seller and vendor seller vendor sort by concat seller and vendor",
+    "dataAutoCompletions": [],
+    "languageAutoCompletions": [],
+    "headlines": [
+        {
+            "name": "concat seller and vendor",
+            "values": [
+                {
+                    "value": 11,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Seller",
+            "values": [
+                {
+                    "value": 3,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Vendor",
+            "values": [
+                {
+                    "value": 5,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "columnNames": [
+                "concat seller and vendor",
+                "Seller",
+                "Vendor"
+            ],
+            "numRows": 12,
+            "rows": [
+                [
+                    "Jane CrazyCookies",
+                    "Jane",
+                    "CrazyCookies"
+                ],
+                [
+                    "bug in row",
+                    "Jane",
+                    "happy cakes"
+                ],
+                [
+                    "Jane SodaPop Quench",
+                    "Jane",
+                    "SodaPop Quench"
+                ],
+                [
+                    "Jane Swirl Ice Cream",
+                    "Jane",
+                    "Swirl Ice Cream"
+                ],
+                [
+                    "RoBert CrazyCookies",
+                    "RoBert",
+                    "CrazyCookies"
+                ],
+                [
+                    "RoBert happy cakes",
+                    "RoBert",
+                    "happy cakes"
+                ],
+                [
+                    "RoBert Pie Party",
+                    "RoBert",
+                    "Pie Party"
+                ],
+                [
+                    "RoBert SodaPop Quench",
+                    "RoBert",
+                    "SodaPop Quench"
+                ],
+                [
+                    "RoBert Swirl Ice Cream",
+                    "RoBert",
+                    "Swirl Ice Cream"
+                ],
+                [
+                    "Sam CrazyCookies",
+                    "Sam",
+                    "CrazyCookies"
+                ],
+                [
+                    "bug in row",
+                    "Sam",
+                    "happy cakes"
+                ],
+                [
+                    "Sam Swirl Ice Cream",
+                    "Sam",
+                    "Swirl Ice Cream"
+                ]
+            ],
+            "displayedData": [
+                [
+                    "Jane CrazyCookies",
+                    "Jane",
+                    "CrazyCookies"
+                ],
+                [
+                    "Jane happy cakes",
+                    "Jane",
+                    "happy cakes"
+                ],
+                [
+                    "Jane SodaPop Quench",
+                    "Jane",
+                    "SodaPop Quench"
+                ],
+                [
+                    "Jane Swirl Ice Cream",
+                    "Jane",
+                    "Swirl Ice Cream"
+                ],
+                [
+                    "RoBert CrazyCookies",
+                    "RoBert",
+                    "CrazyCookies"
+                ],
+                [
+                    "RoBert happy cakes",
+                    "RoBert",
+                    "happy cakes"
+                ],
+                [
+                    "RoBert Pie Party",
+                    "RoBert",
+                    "Pie Party"
+                ],
+                [
+                    "RoBert SodaPop Quench",
+                    "RoBert",
+                    "SodaPop Quench"
+                ],
+                [
+                    "RoBert Swirl Ice Cream",
+                    "RoBert",
+                    "Swirl Ice Cream"
+                ],
+                [
+                    "Sam CrazyCookies",
+                    "Sam",
+                    "CrazyCookies"
+                ]
+            ]
+        }
+    ]
+}

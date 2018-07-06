@@ -1,0 +1,250 @@
+{
+    "answerTitle": "String Casing - strlen formula",
+    "answerDesc": "",
+    "sageQuery": "strlen( item ) item buyer date sort by date",
+    "dataAutoCompletions": [],
+    "languageAutoCompletions": [],
+    "headlines": [
+        {
+            "name": "Item",
+            "values": [
+                {
+                    "value": 5,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Buyer",
+            "values": [
+                {
+                    "value": 4,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Monthly (Date)",
+            "values": [
+                {
+                    "value": 1420099200,
+                    "type": "MIN"
+                },
+                {
+                    "value": 1509519600,
+                    "type": "MAX"
+                }
+            ]
+        },
+        {
+            "name": "Total strlen( item )",
+            "values": [
+                {
+                    "value": 263,
+                    "type": "SUM"
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "columnNames": [
+                "Item",
+                "Buyer",
+                "Date",
+                "strlen( item )"
+            ],
+            "numRows": 21,
+            "rows": [
+                [
+                    "CRazyCOOKies",
+                    "ROBert",
+                    1420099200,
+                    12
+                ],
+                [
+                    "HAPPY CAKES",
+                    "ROBert",
+                    1420099200,
+                    11
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "Ben",
+                    1420099200,
+                    15
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "ROBert",
+                    1420099200,
+                    15
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "William",
+                    1422777600,
+                    15
+                ],
+                [
+                    "HAPPY CAKES",
+                    "Ben",
+                    1427871600,
+                    11
+                ],
+                [
+                    "SODAPOP quench",
+                    "SAM",
+                    1430463600,
+                    14
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "Ben",
+                    1451635200,
+                    15
+                ],
+                [
+                    "pie party",
+                    "ROBert",
+                    1467356400,
+                    9
+                ],
+                [
+                    "SODAPOP quench",
+                    "ROBert",
+                    1467356400,
+                    14
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "Ben",
+                    1467356400,
+                    15
+                ],
+                [
+                    "pie party",
+                    "William",
+                    1470034800,
+                    9
+                ],
+                [
+                    "CRazyCOOKies",
+                    "Ben",
+                    1472713200,
+                    12
+                ],
+                [
+                    "HAPPY CAKES",
+                    "William",
+                    1483257600,
+                    11
+                ],
+                [
+                    "SODAPOP quench",
+                    "ROBert",
+                    1485936000,
+                    14
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "William",
+                    1488355200,
+                    15
+                ],
+                [
+                    "HAPPY CAKES",
+                    "SAM",
+                    1493622000,
+                    11
+                ],
+                [
+                    "CRazyCOOKies",
+                    "ROBert",
+                    1506841200,
+                    12
+                ],
+                [
+                    "HAPPY CAKES",
+                    "William",
+                    1506841200,
+                    11
+                ],
+                [
+                    "HAPPY CAKES",
+                    "William",
+                    1509519600,
+                    11
+                ],
+                [
+                    "HAPPY CAKES",
+                    "Ben",
+                    1509519600,
+                    11
+                ]
+            ],
+            "displayedData": [
+                [
+                    "CRazyCOOKies",
+                    "ROBert",
+                    "Jan FY 2015",
+                    "12"
+                ],
+                [
+                    "HAPPY CAKES",
+                    "ROBert",
+                    "Jan FY 2015",
+                    "11"
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "Ben",
+                    "Jan FY 2015",
+                    "15"
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "ROBert",
+                    "Jan FY 2015",
+                    "15"
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "William",
+                    "Feb FY 2016",
+                    "15"
+                ],
+                [
+                    "HAPPY CAKES",
+                    "Ben",
+                    "Apr FY 2016",
+                    "11"
+                ],
+                [
+                    "SODAPOP quench",
+                    "SAM",
+                    "May FY 2016",
+                    "14"
+                ],
+                [
+                    "SWIRL ice CREAM",
+                    "Ben",
+                    "Jan FY 2016",
+                    "15"
+                ],
+                [
+                    "pie party",
+                    "ROBert",
+                    "Jul FY 2017",
+                    "9"
+                ],
+                [
+                    "SODAPOP quench",
+                    "ROBert",
+                    "Jul FY 2017",
+                    "14"
+                ]
+            ]
+        }
+    ]
+}

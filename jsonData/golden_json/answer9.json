@@ -1,0 +1,199 @@
+{
+    "answerTitle": "String Casing - strpop formula",
+    "answerDesc": "",
+    "sageQuery": "strpos (vendor, 'pop') vendor date sort by date",
+    "dataAutoCompletions": [],
+    "languageAutoCompletions": [],
+    "headlines": [
+        {
+            "name": "Vendor",
+            "values": [
+                {
+                    "value": 5,
+                    "type": "COUNT_DISTINCT"
+                }
+            ]
+        },
+        {
+            "name": "Monthly (Date)",
+            "values": [
+                {
+                    "value": 1420099200,
+                    "type": "MIN"
+                },
+                {
+                    "value": 1509519600,
+                    "type": "MAX"
+                }
+            ]
+        },
+        {
+            "name": "Total strpos (vendor, 'pop')",
+            "values": [
+                {
+                    "value": -6,
+                    "type": "SUM"
+                }
+            ]
+        }
+    ],
+    "tables": [
+        {
+            "columnNames": [
+                "Vendor",
+                "Date",
+                "strpos (vendor, 'pop')"
+            ],
+            "numRows": 19,
+            "rows": [
+                [
+                    "Swirl Ice Cream",
+                    1420099200,
+                    -2
+                ],
+                [
+                    "happy cakes",
+                    1420099200,
+                    -1
+                ],
+                [
+                    "CrazyCookies",
+                    1420099200,
+                    -1
+                ],
+                [
+                    "Swirl Ice Cream",
+                    1422777600,
+                    -1
+                ],
+                [
+                    "happy cakes",
+                    1427871600,
+                    -1
+                ],
+                [
+                    "SodaPop Quench",
+                    1430463600,
+                    4
+                ],
+                [
+                    "Swirl Ice Cream",
+                    1451635200,
+                    -1
+                ],
+                [
+                    "Swirl Ice Cream",
+                    1467356400,
+                    -1
+                ],
+                [
+                    "Pie Party",
+                    1467356400,
+                    -1
+                ],
+                [
+                    "SodaPop Quench",
+                    1467356400,
+                    4
+                ],
+                [
+                    "Pie Party",
+                    1470034800,
+                    -1
+                ],
+                [
+                    "CrazyCookies",
+                    1472713200,
+                    -1
+                ],
+                [
+                    "happy cakes",
+                    1483257600,
+                    -1
+                ],
+                [
+                    "SodaPop Quench",
+                    1485936000,
+                    4
+                ],
+                [
+                    "Swirl Ice Cream",
+                    1488355200,
+                    -1
+                ],
+                [
+                    "happy cakes",
+                    1493622000,
+                    -1
+                ],
+                [
+                    "happy cakes",
+                    1506841200,
+                    -1
+                ],
+                [
+                    "CrazyCookies",
+                    1506841200,
+                    -1
+                ],
+                [
+                    "happy cakes",
+                    1509519600,
+                    -2
+                ]
+            ],
+            "displayedData": [
+                [
+                    "Swirl Ice Cream",
+                    "Jan FY 2015",
+                    "-2"
+                ],
+                [
+                    "happy cakes",
+                    "Jan FY 2015",
+                    "-1"
+                ],
+                [
+                    "CrazyCookies",
+                    "Jan FY 2015",
+                    "-1"
+                ],
+                [
+                    "Swirl Ice Cream",
+                    "Feb FY 2016",
+                    "-1"
+                ],
+                [
+                    "happy cakes",
+                    "Apr FY 2016",
+                    "-1"
+                ],
+                [
+                    "SodaPop Quench",
+                    "May FY 2016",
+                    "4"
+                ],
+                [
+                    "Swirl Ice Cream",
+                    "Jan FY 2016",
+                    "-1"
+                ],
+                [
+                    "Swirl Ice Cream",
+                    "Jul FY 2017",
+                    "-1"
+                ],
+                [
+                    "Pie Party",
+                    "Jul FY 2017",
+                    "-1"
+                ],
+                [
+                    "SodaPop Quench",
+                    "Jul FY 2017",
+                    "4"
+                ]
+            ]
+        }
+    ]
+}
