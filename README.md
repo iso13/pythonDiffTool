@@ -1,6 +1,6 @@
 # pythonDiffTool
 
-Behave automation framework Python tool to compare two JSON files
+Behave-Python automation framework tool to compare two JSON files
 
 # Getting Started
 
